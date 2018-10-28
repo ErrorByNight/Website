@@ -89,3 +89,26 @@ a{
     width:100%;
     text-align: center;
 }
+.footer {
+    position: absolute;
+    left: 0px;
+    top: 1190px;
+    width:100%;
+    height: 120px;
+    background-color: #f96e5b;
+    color: white;
+    text-align: center;
+}
+.facebookimage{
+    position: absolute;
+    left:30px;
+    
+    height:60px;
+    width:60px;
+    top: 30px;
+}
+.facebook{
+    position: absolute;
+    left:100px;
+    top: 50px;
+}
