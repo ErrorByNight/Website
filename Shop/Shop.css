@@ -39,7 +39,7 @@ body {
     }
 .image{
     position:absolute; 
-    left:650px; 
+    left:550px; 
     top:360px;
     width:310px;
     height:200px;
@@ -48,7 +48,7 @@ body {
 }
 .image2{
     position:absolute; 
-    left:650px; 
+    left:550px; 
     top:650px;
     width:310px;
     height:200px;
@@ -57,7 +57,7 @@ body {
     font-size: 25px;
     position: absolute;
     left:800px;
-    top: 250px
+    top: 280px
 }
 .title1{
     position:absolute; 
@@ -84,4 +84,8 @@ img{
 }
 a{
     color: black;
+}
+#cssmenu{
+    width:100%;
+    text-align: center;
 }
