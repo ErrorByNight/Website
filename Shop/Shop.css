@@ -6,7 +6,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -14,40 +13,75 @@ body {
     font-size: 35px;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 44.44%;
-    padding: 5px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Style the footer */
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
+.text1{
+    position:absolute; 
+    left:1030px; 
+    top:390px;
+    width:500px;
+    height:400px;
+    font-size: 20px;
     }
 
-
+.text2{
+    position:absolute; 
+    left:1030px; 
+    top:680px;
+    width:500px;
+    height:400px;
+    font-size: 20px;
+    
 }
-.text {
-        font-size: 20px;
-    }
+
 .opening {
         font-size: 20px;
     font-stretch: expanded;
     padding: 0px
     }
+.image{
+    position:absolute; 
+    left:650px; 
+    top:360px;
+    width:310px;
+    height:200px;
+    
+    
+}
+.image2{
+    position:absolute; 
+    left:650px; 
+    top:650px;
+    width:310px;
+    height:200px;
+}
+.welcome{
+    font-size: 25px;
+    position: absolute;
+    left:800px;
+    top: 250px
+}
+.title1{
+    position:absolute; 
+    left:1030px; 
+    top:330px;
+    width:500px;
+    height:400px;
+    font-size: 20px;
+}
+.title2{
+     position:absolute; 
+    left:1030px; 
+    top:620px;
+    width:500px;
+    height:400px;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.marginstuff{
+    margin:500px;
+}
+a{
+    color: black;
+}
