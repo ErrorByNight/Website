@@ -92,7 +92,18 @@ img{
     width:310px;
     height:200px;
 }
-.image2{
-    width:310px;
-    height:200px;
+iframe{
+    position:absolute; 
+    left:350px; 
+    top:360px;
+    width:600px;
+    height:400px;
+}
+.text1{
+   position:absolute; 
+    left:980px; 
+    top:360px;
+    width:350px;
+    height:400px;
+    font-size: 25px;
 }
