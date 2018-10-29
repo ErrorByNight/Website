@@ -105,7 +105,10 @@ body {
     left:100px;
     top: 50px;
 }
-html{
-    position: fixed;
-    align-content: center;
+.logo{
+    position:absolute; 
+    left:9px; 
+    top:10px;
+    width:200px;
+    height:207px;
 }
