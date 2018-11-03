@@ -32,7 +32,7 @@ section.main aside { width: 100%; margin: auto;}
         font-size: 20px;
     font-stretch: expanded;
     padding: 0px;
-    position:absolute;
+    position:fixed;
     left:400px;
     }
 #cssmenu{
