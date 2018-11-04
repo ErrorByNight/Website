@@ -6,6 +6,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Ths is the box code */
+#page {max-width: 1100px; margin: 0 auto; }
+/* Ths is the box code */
+
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* Ths is the box code */
+section.main {height: 950px; background-color:darkgray; }
+
+section.main aside { width: 100%; margin: auto;}
+
+/* Ths is the box code */
+
 .header {
     background-color: #f1f1f1;
     padding: 30px;
@@ -79,9 +100,6 @@ img{
     width: 100%;
     height: 100%;
 }
-.marginstuff{
-    margin:500px;
-}
 a{
     color: black;
 }
@@ -111,4 +129,11 @@ a{
     position: absolute;
     left:100px;
     top: 50px;
+}
+.logo{
+    position:absolute; 
+    left:9px; 
+    top:10px;
+    width:200px;
+    height:207px;
 }
