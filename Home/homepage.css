@@ -121,13 +121,6 @@ body {
     left:100px;
     top: 50px;
 }
-.logo{
-    position:absolute; 
-    left:9px; 
-    top:10px;
-    width:200px;
-    height:207px;
-}
 
  
 /* this is for the page sizes on different devices*/
@@ -361,6 +354,11 @@ td, th {
 .full-map{
     text-align: center;
 }
-th{
-    
+.wel{
+    font-size: 25px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
 }
