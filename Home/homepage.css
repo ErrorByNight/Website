@@ -328,4 +328,34 @@ body {
 		float: left;
 		clear: both;
 	}
-} */
+} 
+
+.row{
+    		width:100%;
+    		height: auto;
+    		float:left;
+    background-color: darkgrey;
+    	}
+    	.left{
+    		float: left;
+    	}
+    	.right{
+    		float: right;
+    	}
+    	.home-image{
+    		width:30%;
+    	}
+    	.home-content{
+    		width:70%;
+    	}
+.text{
+    font-size: 20px;
+}
+table {
+    border-spacing: 25px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
