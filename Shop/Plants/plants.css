@@ -99,11 +99,9 @@ body {
   height: 1280px;
 }
 .footer {
-    position: absolute;
-    left: 0px;
-    top: 1190px;
+    position:absolute;
+    left:0%;
     width:100%;
-    height: 120px;
     background-color: #f96e5b;
     color: white;
     text-align: center;
@@ -335,14 +333,14 @@ body {
     	.right{
     		float: right;
     	}
-    	.home-image{
-    		width:30%;
+    	.prod-image{
+    		width:10%;
     	}
-    	.home-content{
-    		width:70%;
+    	.prod-content{
+    		width:10%;
     	}
 .text{
-    font-size: 20px;
+    font-size: 10px;
 }
 table {
     border-spacing: 25px;
