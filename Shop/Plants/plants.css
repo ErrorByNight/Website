@@ -334,7 +334,8 @@ body {
     		float: right;
     	}
     	.plan-image{
-    		width:20%;
+    		width:30%;
+            height: 20%;
     	}
     	.plan-content{
     		width:20%;
