@@ -1,0 +1,162 @@
+body {
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: rgb(48,48,48);
+  background-image: url("https://d3teiib5p3f439.cloudfront.net/galloway/galloway.JPG");
+  background-size: 100%;
+  background-position: center;
+  height: 350px;
+  padding: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+header .mobile {
+  display: none;
+}
+
+
+nav ul {
+  
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 715px) {
+  header {
+    height: 250px;
+    background-position: 0 -30px;
+  }
+  header .mobile {
+    display: inline-block;
+  }
+  header .desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 200px;
+    background-position: 0 -0px;
+  }
+}
+
+/* FEATURES */
+
+.features {
+  background: rgb(190,190,190);
+  color: rgb(48,48,48);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+  height: 150px;
+}
+
+/* FOOTER */
+
+footer {
+  background: rgb(48,48,48);
+  color: rgb(48,48,48);
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
+    color:white;
+}
+figcaption a{
+    color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+section h1{
+    color: white;
+}
+
+
+#imageR{
+    padding: 40%;
+    height: 100%; 
+}
+
+#imageL{
+     padding: 40%;
+    height: 100%;
+}
+
+#left{
+    float:left;
+}
+
+#right{
+    float:right;
+}
+
+table, th, td {
+  border: 1px;
+}
+
+td{
+    width:20%;
+    font-size: 125%;
+}
+th{
+    font-size: 150%;
+}
+iframe{
+
+}
+th, td { 
+                width:30%px; 
+                text-align:center; 
+                border:1px solid white; 
+                padding:5px 
+              
+            } 
+#traincar{
+    width:30%px; 
+                text-align:center; 
+                border:1px solid white; 
+                padding:5px 
+}
