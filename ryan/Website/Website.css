@@ -1,0 +1,15 @@
+body {
+    background: #5F9EA0;
+ text-align: center;
+}
+td{
+	width: 20%;
+	background: #5F9EA0;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    }
+td a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}

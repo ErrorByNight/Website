@@ -1,0 +1,45 @@
+/* Background colour & Text formating */
+body {
+  background-color: 	#808080;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+    font-family: helvetica;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+    font-family: helvetica;
+}
+
+
+p {
+    Color: white;
+  font-family: helvetica;
+  font-size: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #611;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #611;
+  color: black;
+}
+
